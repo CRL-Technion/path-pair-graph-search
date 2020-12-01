@@ -66,5 +66,5 @@ SolutionSet get_apx_pareto_set(std::vector<Edge> &edges) {
 
 
 ## Algorithmic overview
-* TODO attach paper after it is published
+* See https://arxiv.org/pdf/2006.10302.pdf
 
