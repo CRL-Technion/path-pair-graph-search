@@ -12,7 +12,7 @@
 	* Linux Ubuntu with gcc 9.3 compiler
 	* Windows 10 with mingw gcc 9.3 compiler
 * For compilation of the source code there are no additional dependencies
-* For testing and log analization tools we have the following dependencies:
+* For testing and log analysis tools we have the following dependencies:
 	* Python 3.8.5
 	* pandas (pip3 install pandas)
 
@@ -33,7 +33,7 @@
 	* Run "run_all_queries" function as described in run examples.
 	* Run ./test/test.py "root directory of generated logs from the previous step" "filename for the test results"
 	* The tests compare the results against precalculated bench marks, to ensure that every solution in the full pareto set is eps dominated by a solution in the apporximated pareto set.
-* To run log analization:
+* To run log analysis:
 	* Run ./src/Utils/log_analyser.py "path to log file" "output format"
 	* Output format can be "csv" or "json"
 
